@@ -1,0 +1,48 @@
+html, body {
+    body: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.dogBackground {
+    background-image: url('dogbg.png');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /* Keep the background fixed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+
+
+.backgroundImage{
+    background-image: url('bg.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /* Keep the background fixed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+
+
+.textWithBorder {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    font-family: "Courier";
+    position: absolute;
+    padding: 10px;
+
+    border: 6px solid black;
+}
